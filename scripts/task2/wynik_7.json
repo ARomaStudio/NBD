@@ -1,0 +1,103 @@
+[
+  {
+    totalAmount: 5579.3,
+    averageAmount: 5579.3,
+    currency: 'EGP'
+  },
+  {
+    totalAmount: 3573.03,
+    averageAmount: 3573.03,
+    currency: 'UZS'
+  },
+  {
+    totalAmount: 11790.92,
+    averageAmount: 3930.306666666667,
+    currency: 'ZAR'
+  },
+  {
+    totalAmount: 6149.19,
+    averageAmount: 6149.19,
+    currency: 'GBP'
+  },
+  {
+    totalAmount: 118606.28,
+    averageAmount: 4941.928333333333,
+    currency: 'PHP'
+  },
+  {
+    totalAmount: 13379.82,
+    averageAmount: 6689.91,
+    currency: 'KRW'
+  },
+  {
+    totalAmount: 8764.99,
+    averageAmount: 4382.495,
+    currency: 'LYD'
+  },
+  {
+    totalAmount: 23021.96,
+    averageAmount: 4604.392,
+    currency: 'THB'
+  },
+  {
+    totalAmount: 5095.79,
+    averageAmount: 5095.79,
+    currency: 'BYR'
+  },
+  {
+    totalAmount: 5792.26,
+    averageAmount: 5792.26,
+    currency: 'NPR'
+  },
+  {
+    totalAmount: 90770.78,
+    averageAmount: 5042.821111111111,
+    currency: 'PLN'
+  },
+  {
+    totalAmount: 74680.98,
+    averageAmount: 4978.732,
+    currency: 'USD'
+  },
+  {
+    totalAmount: 14094.66,
+    averageAmount: 4698.22,
+    currency: 'XAF'
+  },
+  {
+    totalAmount: 13712.5,
+    averageAmount: 4570.833333333333,
+    currency: 'YER'
+  },
+  {
+    totalAmount: 50229,
+    averageAmount: 5022.9,
+    currency: 'MXN'
+  },
+  {
+    totalAmount: 36160.26,
+    averageAmount: 4520.0325,
+    currency: 'VND'
+  },
+  {
+    totalAmount: 4773.66,
+    averageAmount: 4773.66,
+    currency: 'NOK'
+  },
+  {
+    totalAmount: 5792.17,
+    averageAmount: 5792.17,
+    currency: 'ZWL'
+  },
+  {
+    totalAmount: 24609.33,
+    averageAmount: 4921.866,
+    currency: 'AMD'
+  },
+  {
+    totalAmount: 5328.46,
+    averageAmount: 5328.46,
+    currency: 'NZD'
+  }
+]
+Type "it" for more

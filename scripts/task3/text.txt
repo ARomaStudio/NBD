@@ -1,0 +1,66 @@
+//1
+MATCH (p:Person)
+RETURN p
+//2
+MATCH (a:Person)-[:ACTED_IN]->(m:Movie)
+  WHERE a.name = 'Hugo Weaving'
+RETURN m.title
+//3
+MATCH (actor:Person {name: 'Hugo Weaving'})-[:ACTED_IN]->(movie:Movie)<-[:DIRECTED]-(director:Person)
+RETURN DISTINCT director.name
+//4
+MATCH (hw:Person {name: 'Hugo Weaving'})-[:ACTED_IN]->(m:Movie)<-[:ACTED_IN]-(coActor:Person)
+  WHERE coActor.name <> 'Hugo Weaving'
+RETURN DISTINCT coActor.name
+//5
+//6
+MATCH (a:Person)-[:ACTED_IN]->(m:Movie)
+RETURN a.name, count(m)
+//7
+MATCH (p:Person)-[:DIRECTED]->(m:Movie),
+      (p)-[:WROTE]->(m)
+RETURN p.name, m.title
+//8
+MATCH (hw:Person {name: 'Hugo Weaving'})-[:ACTED_IN]->(m:Movie)<-[:ACTED_IN]-(kr:Person {name: 'Keanu Reeves'})
+RETURN m.title
+//9
+CREATE (m:Movie {title: 'Captain America', released: 2011, tagline: 'The First Avenger'})
+CREATE (d:Person {name: 'Joe Johnston'})
+CREATE (s1:Person {name: 'Christopher Markus'}),
+       (s2:Person {name: 'Stephen McFeely'}),
+       (s2:Person {name: 'Joe Simon'})
+CREATE (a1:Person {name: 'Chris Evans'}),
+       (a2:Person {name: 'Hayley Atwell'}),
+       (a3:Person {name: 'Sebastian Stan'}),
+       (a4:Person {name: 'Tommy Lee Jones'})
+MATCH (m:Movie {title: 'Captain America: The First Avenger'}),
+      (d:Person {name: 'Joe Johnston'}),
+      (s1:Person {name: 'Christopher Markus'}),
+      (s2:Person {name: 'Stephen McFeely'}),
+      (a1:Person {name: 'Chris Evans'}),
+      (a2:Person {name: 'Hayley Atwell'}),
+      (a3:Person {name: 'Sebastian Stan'}),
+      (a4:Person {name: 'Tommy Lee Jones'})
+CREATE (d)-[:DIRECTED]->(m),
+       (s1)-[:WROTE]->(m),
+       (s2)-[:WROTE]->(m),
+       (a1)-[:ACTED_IN {roles: ['Steve Rogers', 'Captain America']}]->(m),
+       (a2)-[:ACTED_IN {roles: ['Peggy Carter']}]->(m),
+       (a3)-[:ACTED_IN {roles: ['James Buchanan']}]->(m),
+       (a4)-[:ACTED_IN {roles: ['Colonel Chester']}]->(m)
+MATCH (m:Movie {title: 'Captain America'})
+OPTIONAL MATCH (m)<-[r:DIRECTED]-(d:Person),
+               (m)<-[s:WROTE]-(w:Person),
+               (m)<-[a:ACTED_IN]-(actor:Person)
+RETURN m.title AS Movie, m.released AS Year, m.imdbLink AS Link,
+       d.name AS Director,
+       collect(w.name) AS Writers,
+       collect({actor: actor.name, role: a.role}) AS Actors
+
+
+MATCH (p:Person {name: 'Joe Johnston'})-[r]->(n)
+RETURN p, type(r) as RelationshipType, n
+
+MATCH (a:Person)
+  WHERE a.name = 'Tommy Lee Jones'
+RETURN a.name

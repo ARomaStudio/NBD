@@ -1,0 +1,83 @@
+[
+  {
+    _id: 'Geologist III',
+    averageAge: 33.11048805595369
+  },
+  {
+    _id: 'Java Developer',
+    averageAge: 34.32438745487696
+  },
+  {
+    _id: 'Research Assistant II',
+    averageAge: 35.07429434746658
+  },
+  {
+    _id: 'Office Assistant IV',
+    averageAge: 35.86514582824391
+  },
+  {
+    _id: 'Automation Specialist III',
+    averageAge: 36.880614760755385
+  },
+  {
+    _id: 'Programmer Analyst III',
+    averageAge: 37.475136861903856
+  },
+  {
+    _id: 'Web Developer II',
+    averageAge: 38.51509896586524
+  },
+  {
+    _id: 'Research Assistant I',
+    averageAge: 38.79736469877716
+  },
+  {
+    _id: 'Programmer III',
+    averageAge: 39.34061036706052
+  },
+  {
+    _id: 'Engineer I',
+    averageAge: 39.46387569721988
+  },
+  {
+    _id: 'Accounting Assistant I',
+    averageAge: 39.49490725954465
+  },
+  {
+    _id: 'Administrative Assistant IV',
+    averageAge: 39.58164378626543
+  },
+  {
+    _id: 'Account Representative I',
+    averageAge: 40.38771103568761
+  },
+  {
+    _id: 'Human Resources Assistant III',
+    averageAge: 40.82283354569381
+  },
+  {
+    _id: 'Geologist IV',
+    averageAge: 40.968411664613804
+  },
+  {
+    _id: 'Marketing Assistant',
+    averageAge: 41.04346883252731
+  },
+  {
+    _id: 'Staff Accountant III',
+    averageAge: 41.250402824475266
+  },
+  {
+    _id: 'Human Resources Assistant IV',
+    averageAge: 41.47054491569034
+  },
+  {
+    _id: 'Recruiter',
+    averageAge: 41.58096333456559
+  },
+  {
+    _id: 'Safety Technician III',
+    averageAge: 41.66930320471704
+  }
+]
+Type "it" for more

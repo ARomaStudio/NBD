@@ -1,0 +1,123 @@
+[
+  {
+    _id: 'Andorra',
+    averageBMI: 28.172283654749506,
+    minBMI: 25.692486527991623,
+    maxBMI: 30.65208078150739
+  },
+  {
+    _id: 'North Korea',
+    averageBMI: 26.205146023322587,
+    minBMI: 20.924212172010197,
+    maxBMI: 30.614290364070985
+  },
+  {
+    _id: 'Mali',
+    averageBMI: 24.919410302759925,
+    minBMI: 19.246685556164678,
+    maxBMI: 31.67016743066081
+  },
+  {
+    _id: 'Tonga',
+    averageBMI: 23.8293086776095,
+    minBMI: 23.8293086776095,
+    maxBMI: 23.8293086776095
+  },
+  {
+    _id: 'Ukraine',
+    averageBMI: 25.206155364019796,
+    minBMI: 17.021559565054986,
+    maxBMI: 36.84222756372365
+  },
+  {
+    _id: 'Mongolia',
+    averageBMI: 24.02853800304413,
+    minBMI: 19.12334810050309,
+    maxBMI: 31.47600262984878
+  },
+  {
+    _id: 'Bahamas',
+    averageBMI: 24.994816322414778,
+    minBMI: 22.243665360172294,
+    maxBMI: 26.596494551398333
+  },
+  {
+    _id: 'East Timor',
+    averageBMI: 25.827978752662307,
+    minBMI: 21.52514539442196,
+    maxBMI: 32.7295665335962
+  },
+  {
+    _id: 'Belarus',
+    averageBMI: 25.469679075687,
+    minBMI: 17.86291107456045,
+    maxBMI: 33.93864732017481
+  },
+  {
+    _id: 'Denmark',
+    averageBMI: 23.570666794473013,
+    minBMI: 21.08473436367003,
+    maxBMI: 27.824860598421296
+  },
+  {
+    _id: 'Algeria',
+    averageBMI: 28.594463853802747,
+    minBMI: 28.594463853802747,
+    maxBMI: 28.594463853802747
+  },
+  {
+    _id: 'South Korea',
+    averageBMI: 24.68188694874893,
+    minBMI: 19.481858628477152,
+    maxBMI: 31.35384445026281
+  },
+  {
+    _id: 'Ivory Coast',
+    averageBMI: 26.739162218304372,
+    minBMI: 20.497202679469442,
+    maxBMI: 35.26565858224913
+  },
+  {
+    _id: 'Nigeria',
+    averageBMI: 24.802388203011215,
+    minBMI: 16.860335772659226,
+    maxBMI: 36.16277887197436
+  },
+  {
+    _id: 'Brazil',
+    averageBMI: 25.618104713178706,
+    minBMI: 17.455901881799917,
+    maxBMI: 40.629137270681994
+  },
+  {
+    _id: 'Kazakhstan',
+    averageBMI: 25.872296835537167,
+    minBMI: 16.8070799358325,
+    maxBMI: 36.896740125150984
+  },
+  {
+    _id: 'El Salvador',
+    averageBMI: 25.348361001442797,
+    minBMI: 21.92582816065902,
+    maxBMI: 33.56299576484531
+  },
+  {
+    _id: 'Pakistan',
+    averageBMI: 25.02816349688192,
+    minBMI: 17.507302336811122,
+    maxBMI: 35.54144749573527
+  },
+  {
+    _id: 'Taiwan',
+    averageBMI: 26.610153474174844,
+    minBMI: 20.359929764833222,
+    maxBMI: 31.171391695878288
+  },
+  {
+    _id: 'Bangladesh',
+    averageBMI: 26.693456288940414,
+    minBMI: 19.809821191475773,
+    maxBMI: 34.06297114172176
+  }
+]
+Type "it" for more

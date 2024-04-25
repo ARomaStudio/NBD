@@ -1,0 +1,83 @@
+[
+  {
+    _id: 'ETB',
+    totalBalance: 269686.62
+  },
+  {
+    _id: 'AOA',
+    totalBalance: 67582.8
+  },
+  {
+    _id: 'CHF',
+    totalBalance: 108940.64
+  },
+  {
+    _id: 'CNY',
+    totalBalance: 27425502.27
+  },
+  {
+    _id: 'TMT',
+    totalBalance: 113099.62
+  },
+  {
+    _id: 'BWP',
+    totalBalance: 146972.04
+  },
+  {
+    _id: 'DZD',
+    totalBalance: 12166.2
+  },
+  {
+    _id: 'IRR',
+    totalBalance: 804397.05
+  },
+  {
+    _id: 'PKR',
+    totalBalance: 687770.55
+  },
+  {
+    _id: 'SDG',
+    totalBalance: 127317.75
+  },
+  {
+    _id: 'KZT',
+    totalBalance: 591293.84
+  },
+  {
+    _id: 'STD',
+    totalBalance: 4854.36
+  },
+  {
+    _id: 'UZS',
+    totalBalance: 330309.61
+  },
+  {
+    _id: 'KYD',
+    totalBalance: 16809.66
+  },
+  {
+    _id: 'TOP',
+    totalBalance: 18424.47
+  },
+  {
+    _id: 'COP',
+    totalBalance: 1976194.79
+  },
+  {
+    _id: 'MKD',
+    totalBalance: 436912.01
+  },
+  {
+    _id: 'LRD',
+    totalBalance: 54883.45
+  },
+  {
+    _id: 'RWF',
+    totalBalance: 43299.96
+  },
+  {
+    _id: 'XPF',
+    totalBalance: 132926.01
+  }
+]
+Type "it" for more
